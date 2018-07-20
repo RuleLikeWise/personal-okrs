@@ -10,7 +10,7 @@ render((
   <div className="container-fluid">
     <div className="row">
       <div className="inline col-xs">
-        <img src={ logoUrl } className="img-fluid logo" />
+        <img src={ logoUrl } className="img-fluid logo" style={ { visibility: 'hidden' } } />
         <h1 className="title">ParSys OKR Dashboard</h1>
       </div>
     </div>
