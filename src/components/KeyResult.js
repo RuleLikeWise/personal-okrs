@@ -79,6 +79,7 @@ export default class extends React.Component {
                       progress.toFixed(2)
                   }%
                 </Label>
+               <Label type={'default'}>weight: {(result.weight * 100).toFixed()}%</Label>
               </span>
             ) : (
               <span className="collapser" onClick={() => this.collapse()}>
@@ -91,6 +92,7 @@ export default class extends React.Component {
                       progress.toFixed(2)
                   }%
                 </Label>
+                <Label type={'default'}>weight: {(result.weight * 100).toFixed()}%</Label>
               </span>
             )
           }

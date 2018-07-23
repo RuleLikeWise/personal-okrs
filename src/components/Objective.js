@@ -2,34 +2,19 @@ import React from 'react';
 import KeyResult from './KeyResult';
 import Label from './Label';
 
-export default class extends React.Component {
+export default class Objective extends React.Component {
   static displayName = 'Objective';
 
   render() {
-    const { title, keyResults, goals } = this.props;
-    let abs = 0;
-    let length = keyResults.length;
-    const totalScore = Math.round(100 * ((keyResults.reduce((score, keyResult) => {
-      if (!keyResult.score) {
-        return score;
-      }
-
-      if (keyResult.score.startsWith('+')) {
-        abs += parseFloat(keyResult.score);
-        length -= 1;
-        return score;
-      }
-
-      return score + parseFloat(keyResult.score);
-    }, 0) / length) + abs)) / 100;
-
+    const { title, keyResults, goals, weight, score } = this.props;
     return (
       <div className="col-xs-12 col-md-4">
         <div className="objective">
           <h2>
-            <Label type="info">{totalScore}</Label>
+            <Label type="info">{score.toFixed(2)}</Label>
             {title}
           </h2>
+            <Label key="weight">weight: {(weight * 100).toFixed()}%</Label>
           {goals.map((goal, key) => (
             <Label key={key}>{goal}</Label>
           ))}

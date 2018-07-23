@@ -3,11 +3,13 @@
     {
       "name": "Continue IAM's trajectory delivering a series of highly visible incremental wins",
       "okrs": ["iam"],
+      "weight": 12,
       "results": [
         {
           "name": "SSO Dashboard",
           "description": "Ship the enterprise application SSO Dashboard",
           "progress": 0,
+          "weight": 10,
           "score": "0",
           "scoring": {
             "10": "",
@@ -25,6 +27,7 @@
           "name": "Auth0 Lock",
           "description": "Refresh the Auth0 Lock/Sign-up flow for Mozillians.org",
           "progress": 0,
+          "weight": 1,
           "score": "0",
           "scoring": {
               "10": "",
@@ -42,6 +45,7 @@
           "name": "Auth0 identity",
           "description": "Roll out Auth0 identity to G Suite, Mana, The Hub, IRCcloud (see https://app.productplan.com/xonua5Ar)",
           "progress": 0,
+          "weight": 8,
           "score": "0",
           "scoring": {
               "10": "",
@@ -59,6 +63,7 @@
           "name": "D&I",
           "description": "Prototypes are tested with low-bandwidth and prepared for non-English personas",
           "progress": 0,
+          "weight": 10,
           "score": "0",
           "scoring": {
               "10": "",
@@ -76,6 +81,7 @@
           "name": "LDAP Integration",
           "description": "A mocked volunteer Mozillians.org profile which was provisioned to LDAP via CIS is retrieved through Auth0",
           "progress": 0,
+          "weight": 10,
           "score": "0",
           "scoring": {
               "10": "",
@@ -93,6 +99,7 @@
           "name": "Infrastructure",
           "description": "Mozillians.org is migrated to ParSys AWS",
           "progress": 0,
+          "weight": 10,
           "score": "0",
           "scoring": {
               "10": "",
@@ -112,11 +119,13 @@
     {
       "name": "Community Support Software demonstrates progress in improving the targeted volunteer user experience and increasing efficiency for the program managers",
       "okrs": ["coss"],
+      "weight": 15,
       "results": [
         {
           "name": "Ship CoSS Iteration 1",
           "description": "Ship CoSS iteration 1 utilities for CMS, CRM integration, and Events available for Mozilla Clubs & Campus Clubs",
           "progress": 0,
+          "weight": 10,
           "score": "0",
           "scoring": {
               "10": "",
@@ -134,6 +143,7 @@
           "name": "Developer Marketing Pilot",
           "description": "CoSS project adds a third program, Developer Marketing Pilot",
           "progress": 0,
+          "weight": 10,
           "score": "0",
           "scoring": {
               "10": "",
@@ -151,6 +161,7 @@
           "name": "ExactTarget",
           "description": "Program managers can segment their audience in ExactTarget",
           "progress": 0,
+          "weight": 10,
           "score": "0",
           "scoring": {
               "10": "",
@@ -168,6 +179,7 @@
           "name": "D&I",
           "description": "Prototypes are tested with both existing community and a key (targeted: non-English) persona",
           "progress": 0,
+          "weight": 10,
           "score": "0",
           "scoring": {
               "10": "",
@@ -187,11 +199,13 @@
     {
       "name": "Migrate Mozilla's community sites to WPengine in order to have these WordPress sites on a secure, reliable, maintained infrastructure",
       "okrs": ["infra"],
+      "weight": 20,
       "results": [
         {
           "name": "WPadmin",
           "description": "100% of existing ParSys WPadmin hosted community sites migrated",
           "progress": 0,
+          "weight": 10,
           "score": "0",
           "scoring": {
               "10": "",
@@ -209,6 +223,7 @@
           "name": "Community Sites",
           "description": "1 additional community site migrated",
           "progress": 0,
+          "weight": 10,
           "score": "0",
           "scoring": {
               "10": "",
@@ -226,6 +241,7 @@
           "name": "MCWS",
           "description": "Existing Mozilla Community Web Services (MCWS) team is empowered to create the community sites transition plan",
           "progress": 0,
+          "weight": 10,
           "score": "0",
           "scoring": {
               "10": "",

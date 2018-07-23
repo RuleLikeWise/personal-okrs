@@ -189,9 +189,19 @@ h3, .h3 {
     width: 2.25rem;
 }
 
-.objective > .tag-default {
+.objective .tag-default {
     font-weight: 300;
     background-color: lightgray;
+}
+
+h1 .tag {
+    border-radius: 1rem;
+    vertical-align: middle;
+    margin-top: -1px;
+    font-weight: bold;
+    padding: .3rem .4rem;
+    margin-left: 1rem;
+    margin-bottom: .5rem;
 }
 
 h2 .tag {
