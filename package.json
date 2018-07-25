@@ -18,6 +18,7 @@
         "react-addons-css-transition-group": "^15.4.1",
         "react-addons-transition-group": "^15.4.1",
         "react-dom": "^15.4.1",
+        "react-router-dom": "^4.3.1",
         "reactstrap": "^3.9.2"
     }
 }
