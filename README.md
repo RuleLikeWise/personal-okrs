@@ -11,6 +11,10 @@ $ yarn
 $ yarn start
 ```
 
+## Usage
+
+[Usage](USAGE.md)
+
 ## License
 
 [MPL-2.0](LICENSE)
