@@ -1,25 +1,20 @@
-# ParSys OKRs
+# Personal OKRs
 
-This project tracks Mozilla Participation Systems OKRs.
+This project tracks personal OKRs.
 
 ## Running it locally
 
-Make sure you have node and npm installed before using the following commands:
+Make sure you have node and yarn installed before using the following commands:
 
 ```
-$ npm install
-$ npm start
-```
-
-## Deploy
-
-```
-$ npm run build
-$ ./node_modules/gh-pages/bin/gh-pages -d build -r git@github.com:<username/org>/<reponame>.git
+$ yarn
+$ yarn start
 ```
 
 ## License
 
 [MPL-2.0](LICENSE)
 
-Forked and heavily based on [this](https://github.com/mozilla-rpweb/okr-dashboard) and [this](https://github.com/MichaelKohler/OKRs).
+Forked from [this project](https://github.com/mozilla/parsys-okr-dashboard)
+
+Heavily based on [this](https://github.com/mozilla-rpweb/okr-dashboard) and [this](https://github.com/MichaelKohler/OKRs).
