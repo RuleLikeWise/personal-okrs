@@ -27,7 +27,7 @@ const Okrs = ({ match }) => {
     <div className="row">
       <div className="inline col-xs">
         <img src={ logoUrl } className="img-fluid logo" style={{ visibility: 'hidden' }}/>
-        <h1 className="title">ParSys OKR Dashboard
+        <h1 className="title">{ newData.title }
           <Label type="info">{newData.score.toFixed(2)}</Label></h1>
       </div>
     </div>
