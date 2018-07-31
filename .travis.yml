@@ -3,4 +3,5 @@ node_js:
   - "node"
 install:
   - yarn
+script:
   - echo "yarn test temporarily disabled"
