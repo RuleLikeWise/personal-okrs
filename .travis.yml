@@ -3,3 +3,4 @@ node_js:
   - "node"
 install:
   - yarn
+  - echo "skipping tests"
