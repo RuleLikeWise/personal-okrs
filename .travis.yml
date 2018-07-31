@@ -3,11 +3,13 @@ node_js:
   - "node"
 install:
   - yarn
+  - yarn build
 script:
   - echo "yarn test temporarily disabled"
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
+  local-dir: build
   on:
     branch: feature/ci
